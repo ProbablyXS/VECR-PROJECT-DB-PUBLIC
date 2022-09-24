@@ -1,0 +1,35 @@
+<project outputDir="D:\BACKUP\BACKUP GOOGLE DRIVE\VECR PROJETS\VECR PROJECT\PROJECTS\VECR-PROJECT-DATABASE\MONGODB\obj\Release" baseDir="D:\BACKUP\BACKUP GOOGLE DRIVE\VECR PROJETS\VECR PROJECT\PROJECTS\VECR-PROJECT-DATABASE\MONGODB\obj\Release" xmlns="http://confuser.codeplex.com">
+<rule pattern="true" />
+<module path="MONGODB.exe">
+<rule pattern="true">
+<protection id="anti ildasm" />
+<protection id="anti tamper" />
+<protection id="constants" />
+<protection id="ctrl flow" />
+<protection id="anti dump" />
+<protection id="anti debug" />
+<protection id="invalid metadata" />
+<protection id="ref proxy" />
+<protection id="resources" />
+<protection id = "rename" >
+<argument name = "mode" value = "decodable" />
+<argument name = "renPublic" value = "false" />
+<argument name = "renEnum" value = "false" />
+<argument name = "renameArgs" value = "false" />
+</protection >
+</rule>
+</module>
+<probePath>..\..\..\packages\DnsClient.1.4.0\lib\net471</probePath>
+<probePath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2</probePath>
+<probePath>..\..\..\packages\MongoDB.Bson.2.14.1\lib\net472</probePath>
+<probePath>..\..\..\packages\MongoDB.Driver.2.14.1\lib\net472</probePath>
+<probePath>..\..\..\packages\MongoDB.Driver.Core.2.14.1\lib\net472</probePath>
+<probePath>..\..\..\packages\MongoDB.Libmongocrypt.1.3.0\lib\net472</probePath>
+<probePath>..\..\..\packages\SharpCompress.0.30.1\lib\net461</probePath>
+<probePath>..\..\..\packages\System.Buffers.4.5.1\lib\net461</probePath>
+<probePath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades</probePath>
+<probePath>..\..\..\packages\System.Memory.4.5.4\lib\net461</probePath>
+<probePath>..\..\..\packages\System.Numerics.Vectors.4.5.0\lib\net46</probePath>
+<probePath>..\..\..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45</probePath>
+<probePath>..\..\..\packages\System.Text.Encoding.CodePages.5.0.0\lib\net461</probePath>
+</project>
